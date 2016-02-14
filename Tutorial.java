@@ -23,7 +23,7 @@ public class Arcade  {
 	
 	public void Arcade(JavaPlugin plugin) {
 	       //120 tempo para iniciar o game
-	       MiniGamesMananger mine = new MiniGamesMananger(plugin,120, _moduleName);
+	 MiniGamesMananger mine = new MiniGamesMananger(plugin,120, _moduleName);
          mine.CriarTime(Time.Vermelho); // Criar os Times
          mine.CriarTime(Time.Amarelo);
          mine.CriarTime(Time.Verder);
